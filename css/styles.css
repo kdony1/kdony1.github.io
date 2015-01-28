@@ -1,0 +1,36 @@
+/* GLOBAL*/
+body {
+font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+line-height: 32px;
+}
+
+p {}
+
+/* HOME PAGE*/
+
+/*BIO PAGE*/
+.bio h1 {
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+}
+.bio h2,
+.bio h3 {
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+}
+
+.bio h1 {
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+.bio article {
+	background: teal;
+	margin: 0 auto 0 auto;
+	width: 1000px;
+}
+
+.bio section {
+	float: left;
+	width: 50%;
+}
+
+
+/*STYLE TILE*/
