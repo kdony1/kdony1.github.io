@@ -4,32 +4,48 @@ font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Tim
 line-height: 32px;
 }
 
-p {}
 
 /* HOME PAGE*/
+.home header {
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+	font-size: 35px;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	background: red;
+	margin: 0 auto 0 auto;
+	width: 100%;
+	padding: 3% 5% 3% 5%;
+}
+
+.home nav a {
+	text-decoration: none;
+	color: black;
+}
 
 /*BIO PAGE*/
-.bio h1 {
+.bio header {
 	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+	font-size: 35px;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	background: red;
+	margin: 0 auto 0 auto;
+	width: 100%;
+	padding: 3% 5% 3% 5%;
 }
+
 .bio h2,
 .bio h3 {
 	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
 }
 
-.bio h1 {
-text-transform: uppercase;
-letter-spacing: 2px;
-}
-.bio article {
-	background: teal;
-	margin: 0 auto 0 auto;
-	width: 1000px;
-}
 
 .bio section {
+	margin-top: 100px;	
 	float: left;
 	width: 50%;
+}
+
 }
 
 
