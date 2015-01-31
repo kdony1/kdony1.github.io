@@ -2,64 +2,82 @@
 body {
 font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
 line-height: 35px;
-background-image: url(flower.jpg);
-background-size: 40%;
+background-color: #F0F0F0;
+letter-spacing: 1px;
+font-size: 11pt;
 }
 
 li {
 	display: inline-block;
-	
 }
 
-/* HOME PAGE*/
-.home header {
+header {
 	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
 	font-size: 35px;
 	text-transform: uppercase;
 	letter-spacing: 6px;
-	background: red;
+	background: white;
 	margin: 0 auto 0 auto;
 	width: 100%;
 	padding: 3% 5% 3% 5%;
+	border-bottom: dotted black 10px;
+	font-weight: 800;
+	color: red;
 }
 
+h1 {
+	text-align: center;
+	font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	line-height: 55px;
+}
+
+/* HOME PAGE*/
 .home nav a,
 .bio nav a {
 	text-decoration: none;
 	color: black;
+	letter-spacing: 2px;
+}
+nav a:hover {
+	font-size: 120%;
 }
 
 /*BIO PAGE*/
 section {
 	margin: 0 10% 0% 10%;
 }
-.bio header {
-	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
-	font-size: 35px;
-	text-transform: uppercase;
-	letter-spacing: 6px;
-	background: red;
-	margin: 0 auto 0 auto;
-	width: 100%;
-	padding: 3% 5% 3% 5%;
-}
 
 q {
-	color: gray;
+	color: #686868;
 }
 .bio h2 {
 	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+	border-left: solid 2px;
+	padding: 0 0 0 10px;
+	letter-spacing: 2px;
 }
 
 .my-photo {
 	width: 35%;
-	float: right;
-	border-radius: 5%;
-	margin: 10px;
-	box-shadow: 2px 10px 10px rgba(0, 0, 0, .3);
+	float: right;	
+	margin: 5%;
+	box-shadow: 2px 10px 10px rgba(0, 0, 0, .5);
+	border-radius: 40% 15%;
+    border: white solid 5px;
 }
 .contact-info {
-	margin-bottom: 50px;
+	margin-bottom: 15%;
 }
 
+footer {
+	background-color: white;
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+	font-weight: 800;
+	border-top: dotted black 10px; 
+}
+footer a {
+	text-decoration: none;
+	color: red;
+
+}
 /*STYLE TILE*/
