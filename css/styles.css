@@ -1,4 +1,15 @@
 /* GLOBAL*/
+
+nav a {
+	text-decoration: none;
+	color: black;
+	letter-spacing: 2px;
+}
+
+nav a:hover {
+	font-size: 120%;
+}
+
 body {
 font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
 line-height: 35px;
@@ -26,23 +37,23 @@ header {
 }
 
 h1 {
-	text-align: center;
-	font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
-	line-height: 55px;
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+	font-size: 35px;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	font-weight: 800;
+	color: red;
 }
+
 
 /* HOME PAGE*/
-.home nav a,
-.bio nav a {
-	text-decoration: none;
-	color: black;
-	letter-spacing: 2px;
-}
-nav a:hover {
-	font-size: 120%;
-}
+
+
+
+
 
 /*BIO PAGE*/
+
 section {
 	margin: 0 10% 0% 10%;
 }
@@ -50,7 +61,8 @@ section {
 q {
 	color: #686868;
 }
-.bio h2 {
+
+h2 {
 	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
 	border-left: solid 2px;
 	padding: 0 0 0 10px;
@@ -78,18 +90,20 @@ footer {
 footer a {
 	text-decoration: none;
 	color: red;
-
 }
+
+
+
+
 /*STYLE TILE*/
 /* Layout for Style Tile
 Feel free to change */
-.style-tile section {
-	margin: 20px 0;
-}
 
 .color-1,
 .color-2,
 .color-3,
+.color-4,
+.color-5,
 .pattern-1,
 .pattern-2,
 .pattern-3, 
@@ -98,19 +112,57 @@ Feel free to change */
 .imagery-3 {
 	border: 1px solid #000;
 	float: left;
-	margin: 0 10px;
+	margin: 0 2% 5% 0;
 	height: 50px;
 	width: 50px;
-}
+	}
+
+	
+	.color-1 {
+		background-color: black;
+	}
+
+	.color-2 {
+		background-color: red;
+	}
+
+	.color-3 {
+		background-color: #686868;
+	}
+	.color-4 {
+		background-color: #F0F0F0;
+	}
+	.color-5 {
+		background-color: white;
+	}
+
+	.pattern-1 {
+		border-left: 10px solid;
+		height: 50px;
+		width: 40px;
+		background-color: white;	
+	}
+	.pattern-2 {
+		border: 10px dotted;
+		height: 30px;
+		width: 30px;
+		background-color: white;		
+	}
+
 
 /* Set Your Own Typography */
 
-
-/* Set Your Own Margin & Padding */
-.style-tile h2, .style-tile h3, .style-tile p {
-	margin: 0;
+.spacing {
+	line-height: 50px;
 }
 
-/* Clearfix - Oo Not Remove */
-.clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+/* Clearfix - Do Not Remove */
+.clearfix {
+	clear:both;
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+	width:0;
+	height:0;
+}
 
