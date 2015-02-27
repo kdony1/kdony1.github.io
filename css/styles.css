@@ -13,7 +13,7 @@ nav a:hover {
 body {
 font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
 line-height: 35px;
-background-color: #F0F0F0;
+background-color: #F0F0F0; /*light gray*/
 letter-spacing: 1px;
 font-size: 11pt;
 }
@@ -33,7 +33,7 @@ header {
 	padding: 3% 5% 3% 5%;
 	border-bottom: dotted black 10px;
 	font-weight: 800;
-	color: red;
+	color: #FF0000; /*red*/
 }
 
 h1 {
@@ -42,7 +42,7 @@ h1 {
 	text-transform: uppercase;
 	letter-spacing: 6px;
 	font-weight: 800;
-	color: red;
+	color: #FF0000; /*red*/
 }
 
 
@@ -55,11 +55,11 @@ h1 {
 /*BIO PAGE*/
 
 section {
-	margin: 0 10% 0% 10%;
+	margin: 0 10% 3% 10%;
 }
 
 q {
-	color: #686868;
+	color: #686868; /*dark gray*/
 }
 
 h2 {
@@ -77,9 +77,6 @@ h2 {
 	border-radius: 40% 15%;
     border: white solid 5px;
 }
-.contact-info {
-	margin-bottom: 15%;
-}
 
 footer {
 	background-color: white;
@@ -89,7 +86,7 @@ footer {
 }
 footer a {
 	text-decoration: none;
-	color: red;
+	color: #FF0000; /*red*/
 }
 
 
