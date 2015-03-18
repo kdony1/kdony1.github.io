@@ -1,40 +1,73 @@
 /* GLOBAL*/
 
+header {
+	padding: 50px 50px 25px 50px;
+	border-bottom: #00CC33 solid 10px; /*green*/
+
+}
+
+.tree {
+	background: white;
+	opacity: 0.8;
+	border-radius: 100%;
+	padding: 5px;
+	display: inline;
+	width: 200px;
+	float: right;
+
+}
+
+.Logo {
+
+}
+
+body { 
+  background: url(../img/bamboo.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 nav a {
 	text-decoration: none;
 	color: black;
 	letter-spacing: 2px;
+
 }
 
 nav a:hover {
 	font-size: 120%;
 }
 
+footer {
+	background-color: white;
+	opacity: 0.8;
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+	font-weight: 800;
+	border-top: #00CC33 solid 10px; /*green*/
+
+}
+footer a {
+	text-decoration: none;
+	color: #00CC33; /*green*/
+}
+
+
 body {
 font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
 line-height: 35px;
-background-color: #F0F0F0; /*light gray*/
 letter-spacing: 1px;
 font-size: 11pt;
 }
+
+
 
 li {
 	display: inline-block;
 }
 
-header {
-	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
-	font-size: 35px;
-	text-transform: uppercase;
-	letter-spacing: 6px;
-	background: white;
-	margin: 0 auto 0 auto;
-	width: 100%;
-	padding: 3% 5% 3% 5%;
-	border-bottom: dotted black 10px;
-	font-weight: 800;
-	color: #FF0000; /*red*/
-}
+
 
 h1 {
 	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
@@ -42,11 +75,9 @@ h1 {
 	text-transform: uppercase;
 	letter-spacing: 6px;
 	font-weight: 800;
-	color: #FF0000; /*red*/
+	color: #00CC33; /*green*/
 }
 
-
-/* HOME PAGE*/
 
 
 
@@ -78,16 +109,6 @@ h2 {
     border: white solid 5px;
 }
 
-footer {
-	background-color: white;
-	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
-	font-weight: 800;
-	border-top: dotted black 10px; 
-}
-footer a {
-	text-decoration: none;
-	color: #FF0000; /*red*/
-}
 
 
 
@@ -171,10 +192,15 @@ Feel free to change */
 	padding: 0;
 }
 
-
-
-
-
+@media screen and (max-width: 710px) {
+	.tree {
+		display: none;
+	}
+	.Logo {
+		width: 90%;
+		margin: 5%;
+	}
+}
 
 
 
