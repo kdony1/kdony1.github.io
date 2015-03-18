@@ -3,6 +3,7 @@
 header {
 	padding: 50px 50px 25px 50px;
 	border-bottom: #00CC33 solid 10px; /*green*/
+	background: rgba(0,0,0,0.3);
 
 }
 
@@ -42,7 +43,7 @@ nav a {
 	letter-spacing: 2px;
 	background: white;
 	opacity: 0.8;
-	border-radius: 8%;
+	border-radius: 3px;
 	padding: 3px 10px;
 	margin-right: 1px;
 
@@ -58,6 +59,7 @@ nav a:hover {
 li {
 	display: inline-block;
 }
+
 
 
 /* Body*/
@@ -86,10 +88,14 @@ div {
 	width: 70%;
 	margin: 5% 10%;
 	padding: 5%;
-	border-radius: 5%;
+	border-radius: 15px;
 	float: none;
 	display: block;
 
+}
+a {
+	text-decoration: none;
+	color: #00CC33;
 }
 
 /* Footer*/
@@ -100,7 +106,8 @@ footer {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	border-top: #00CC33 solid 10px; /*green*/
-	padding: 10px;
+	padding-left: 50px;
+	padding-bottom: 50px;
 
 }
 footer a {
@@ -118,11 +125,11 @@ q {
 
 
 .my-photo {
-	width: 200px;
+	width: 50%;
 	float: right;	
 	margin: 5%;
 	/*box-shadow: 2px 10px 10px rgba(0, 0, 0, .5);*/
-	border-radius: 5%;
+	border-radius: 15px;
     border: #00CC33 solid 1px;
 }
 
@@ -197,7 +204,29 @@ Feel free to change */
 	height:0;
 }
 
+/* Typeform */
+.typeform-widget {
+	padding: 0;
+	margin: 0;
+	width: 80%;	
+	height: 500px;
+}
+
+
 /*Responsive Design */
+@media screen and (min-width: 760px) {
+	div {
+		max-width: 800px;
+		margin: 5% auto;
+
+	}
+	section {
+		max-width: 800px;
+		margin: 5% auto;
+
+	}
+
+}
 
 @media screen and (max-width: 560px) {
 	li {
@@ -213,8 +242,9 @@ Feel free to change */
 		width: 70%;
 		margin: 10%;
 	}
-
+	
 }
+
 
 
 
