@@ -35,20 +35,24 @@ body {
 
 /* Navigation*/
 
-nav {
-	background: white;
-}
 
 nav a {
 	text-decoration: none;
 	color: black;
 	letter-spacing: 2px;
+	background: white;
+	opacity: 0.8;
+	border-radius: 8%;
+	padding: 3px 10px;
+	margin-right: 1px;
 
 
 }
 
 nav a:hover {
-	font-size: 120%;
+	font-weight: 900;
+	background: #00CC33;
+	color: white;
 }
 
 li {
@@ -77,7 +81,16 @@ h1 {
 	color: #00CC33; /*green*/
 }
 
+div {
+	background: white;
+	width: 70%;
+	margin: 5% 10%;
+	padding: 5%;
+	border-radius: 5%;
+	float: none;
+	display: block;
 
+}
 
 /* Footer*/
 
@@ -87,6 +100,7 @@ footer {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	border-top: #00CC33 solid 10px; /*green*/
+	padding: 10px;
 
 }
 footer a {
@@ -96,24 +110,12 @@ footer a {
 
 
 
-
-
 /*BIO PAGE*/
-
-section {
-	margin: 0 10% 3% 10%;
-}
 
 q {
 	color: #686868; /*dark gray*/
 }
 
-h2 {
-	font-family: 'Lato', sans-serif;  
-	border-left: solid 2px;
-	padding: 0 0 0 10px;
-	letter-spacing: 2px;
-}
 
 .my-photo {
 	width: 35%;
@@ -127,7 +129,6 @@ h2 {
 
 
 
-
 /*STYLE TILE*/
 /* Layout for Style Tile
 Feel free to change */
@@ -136,18 +137,18 @@ Feel free to change */
 .color-2,
 .color-3,
 .color-4,
-.color-5,
 .pattern-1,
 .pattern-2,
 .pattern-3, 
 .imagery-1,
 .imagery-2,
 .imagery-3 {
-	border: 1px solid #000;
+	border: .5px solid #000;
 	float: left;
 	margin: 0 2% 5% 0;
 	height: 50px;
 	width: 50px;
+	border-radius: 100%;
 	}
 
 	
@@ -156,30 +157,27 @@ Feel free to change */
 	}
 
 	.color-2 {
-		background-color: red;
+		background-color: #00CC33;
 	}
 
 	.color-3 {
 		background-color: #686868;
 	}
+	
 	.color-4 {
-		background-color: #F0F0F0;
-	}
-	.color-5 {
 		background-color: white;
 	}
 
 	.pattern-1 {
-		border-left: 10px solid;
-		height: 50px;
-		width: 40px;
-		background-color: white;	
+		border: 10px solid;
+		background-color: white;
+		color: #00CC33;	
+		width: 30px;
+		height: 30px;
 	}
 	.pattern-2 {
-		border: 10px dotted;
-		height: 30px;
-		width: 30px;
-		background-color: white;		
+	background: url(../img/bamboo.jpg);	
+	border: none;
 	}
 
 
@@ -201,11 +199,6 @@ Feel free to change */
 
 
 /*Typeform Widget*/
-
-.form {
-	margin-top: 0;
-	padding: 0;
-}
 
 @media screen and (max-width: 710px) {
 	.tree {
