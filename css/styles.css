@@ -1,4 +1,4 @@
-/* GLOBAL*/
+/* Header*/
 
 header {
 	padding: 50px 50px 25px 50px;
@@ -21,6 +21,8 @@ header {
 
 }
 
+/* Background*/
+
 body { 
   background: url(../img/bamboo.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -29,10 +31,19 @@ body {
   background-size: cover;
 }
 
+
+
+/* Navigation*/
+
+nav {
+	background: white;
+}
+
 nav a {
 	text-decoration: none;
 	color: black;
 	letter-spacing: 2px;
+
 
 }
 
@@ -40,11 +51,41 @@ nav a:hover {
 	font-size: 120%;
 }
 
+li {
+	display: inline-block;
+}
+
+
+/* Body*/
+
+body {
+	font-family: 'Lato', sans-serif; 
+	font-weight: 300;
+	line-height: 35px;
+	letter-spacing: 1px;
+	font-size: 11pt;
+}
+
+
+
+
+h1 {
+	font-family: 'Rochester', cursive;
+	font-size: 35px;
+	letter-spacing: 6px;
+	font-weight: 800;
+	color: #00CC33; /*green*/
+}
+
+
+
+/* Footer*/
+
 footer {
 	background-color: white;
 	opacity: 0.8;
-	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
-	font-weight: 800;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
 	border-top: #00CC33 solid 10px; /*green*/
 
 }
@@ -52,32 +93,6 @@ footer a {
 	text-decoration: none;
 	color: #00CC33; /*green*/
 }
-
-
-body {
-font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
-line-height: 35px;
-letter-spacing: 1px;
-font-size: 11pt;
-}
-
-
-
-li {
-	display: inline-block;
-}
-
-
-
-h1 {
-	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
-	font-size: 35px;
-	text-transform: uppercase;
-	letter-spacing: 6px;
-	font-weight: 800;
-	color: #00CC33; /*green*/
-}
-
 
 
 
@@ -94,7 +109,7 @@ q {
 }
 
 h2 {
-	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+	font-family: 'Lato', sans-serif;  
 	border-left: solid 2px;
 	padding: 0 0 0 10px;
 	letter-spacing: 2px;
