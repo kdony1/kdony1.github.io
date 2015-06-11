@@ -1,37 +1,3 @@
-//Option A: show() and hide()
-//Opion B: toggleClass(), addClass(), removeClass()
-
-//Show All
-$('.All').click(function() {
-  $('.pho').show();
-  $('.ill').show();
-  
-})
-
-//Click Illustration
-//Hide Photos
-//Show Illustrations
-$('.Ill').click(function() {
-  $('.pho').hide();
-  $('.ill').show();
-  
-})
-
-//Click Photos
-//Hide Illustrations
-//Show Photos
-$('.Pho').click(function() {
-  $('.ill').hide(); 
-  $('.pho').show(); 
-  
-})
-
-
-
-
-
-
-
 var checkClass = function() {
   
   // Remove Existing Hide 

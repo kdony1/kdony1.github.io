@@ -104,6 +104,18 @@ footer a {
 
 /*Gallery */
 
+.gallery h3 {
+	font-weight: 900;
+}
+
+button {
+	font-weight: 900;
+	background: #00CC33;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	padding: 3px 10px;
+}
 
 .gallery img {
 	height: 200px;
@@ -111,20 +123,6 @@ footer a {
 	margin-right: 2%;
 }
 
-.logos {
- border: 2px solid yellow;
-}
-
-.layouts {
-  border: 2px solid magenta;
-}
-
-.photos {
-  border: 2px solid cyan;
-}
-.artwork {
-  border: 2px solid black;
-}
 
 .hide {
   opacity: 0;
@@ -172,16 +170,28 @@ q {
 /*Contact Form */
 input {
   display: block;
+
 }
 
 /* Name */
 input[type="text"] {
- 
+ margin-bottom: 10px;
+ color: #00CC33;
+ border-radius: 3px;
 }
 
 /* email */
 input[type="email"] {
- /*background color here */
+ margin-bottom: 10px;
+ color: #00CC33;
+ border-radius: 3px;
+}
+
+input[type="submit"] {
+	background: #00CC33;
+	color: white;
+	border: none;
+	border-radius: 3px;
 }
 
 /*Responsive Design */
@@ -203,7 +213,13 @@ input[type="email"] {
 	li {
 		display: block;
 	}
-}
+	.holder h3 {
+		display: none;
+	}
+	.gallery img {
+		height: auto;
+		width: 100%;
+	}
 
 @media screen and (max-width: 760px) {
 	.tree {
