@@ -60,8 +60,6 @@ li {
 	display: inline-block;
 }
 
-
-
 /* Body*/
 
 body {
@@ -71,9 +69,6 @@ body {
 	letter-spacing: 1px;
 	font-size: 11pt;
 }
-
-
-
 
 h1 {
 	font-family: 'Rochester', cursive;
@@ -88,8 +83,6 @@ a {
 	text-decoration: none;
 	color: #00CC33;
 }
-
-
 
 /* Footer*/
 
@@ -132,7 +125,6 @@ footer a {
   border: 2px solid black;
 }
 
-
 .hide {
   opacity: 0;
   transition: opacity .25s;
@@ -145,7 +137,6 @@ footer a {
 q {
 	color: #686868; /*dark gray*/
 }
-
 
 .my-photo {
 	width: 50%;
@@ -167,7 +158,6 @@ q {
 
 }
 
-
 /* Clearfix - Do Not Remove */
 .clearfix {
 	clear:both;
@@ -177,7 +167,6 @@ q {
 	width:0;
 	height: 0;
 }
-
 
 /*Contact Form */
 input {
@@ -193,7 +182,6 @@ input[type="text"] {
 input[type="email"] {
  /*background color here */
 }
-
 
 /*Responsive Design */
 @media screen and (min-width: 1000px) {
@@ -223,7 +211,6 @@ input[type="email"] {
 	.Logo {
 		width: 70%;
 		margin: 10%;
-	}
-	
+	}	
 }
 
