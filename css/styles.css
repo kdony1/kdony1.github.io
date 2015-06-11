@@ -83,20 +83,13 @@ h1 {
 	color: #00CC33; /*green*/
 }
 
-div {
-	background: white;
-	width: 70%;
-	margin: 5% 10%;
-	padding: 5%;
-	border-radius: 15px;
-	float: none;
-	display: block;
 
-}
 a {
 	text-decoration: none;
 	color: #00CC33;
 }
+
+
 
 /* Footer*/
 
@@ -115,6 +108,36 @@ footer a {
 	color: #00CC33; /*green*/
 }
 
+/*Gallery */
+
+
+.gallery img {
+	height: 200px;
+	box-shadow: 10px 20px 20px rgba(0, 0, 0, .5);
+	margin-right: 5%;
+}
+
+.logos {
+ border: 2px solid yellow;
+}
+
+.layouts {
+  border: 2px solid magenta;
+}
+
+.photos {
+  border: 2px solid cyan;
+}
+.artwork {
+  border: 2px solid black;
+}
+
+
+.hide {
+  opacity: 0;
+  transition: opacity .25s;
+  position: absolute;
+}
 
 
 /*BIO PAGE*/
@@ -133,66 +156,17 @@ q {
     border: #00CC33 solid 1px;
 }
 
+.holder {
+	background: white;
+	width: 70%;
+	margin: 5% 10%;
+	padding: 5%;
+	border-radius: 15px;
+	float: none;
+	display: block;
 
-
-
-/*STYLE TILE*/
-/* Layout for Style Tile
-Feel free to change */
-
-.color-1,
-.color-2,
-.color-3,
-.color-4,
-.pattern-1,
-.pattern-2,
-.pattern-3, 
-.imagery-1,
-.imagery-2,
-.imagery-3 {
-	border: .5px solid #000;
-	float: left;
-	margin: 0 2% 5% 0;
-	height: 50px;
-	width: 50px;
-	border-radius: 100%;
-	}
-
-	
-	.color-1 {
-		background-color: black;
-	}
-
-	.color-2 {
-		background-color: #00CC33;
-	}
-
-	.color-3 {
-		background-color: #686868;
-	}
-	
-	.color-4 {
-		background-color: white;
-	}
-
-	.pattern-1 {
-		border: 10px solid;
-		background-color: white;
-		color: #00CC33;	
-		width: 30px;
-		height: 30px;
-	}
-	.pattern-2 {
-	background: url(../img/bamboo.jpg);	
-	border: none;
-	}
-
-
-/* Set Your Own Typography */
-
-.spacing {
-	line-height: 50px;
 }
+
 
 /* Clearfix - Do Not Remove */
 .clearfix {
@@ -204,12 +178,20 @@ Feel free to change */
 	height:0;
 }
 
-/* Typeform */
-.typeform-widget {
-	padding: 0;
-	margin: 0;
-	width: 80%;	
-	height: 500px;
+
+/*Contact Form */
+input {
+  display: block;
+}
+
+/* Name */
+input[type="text"] {
+ 
+}
+
+/* email */
+input[type="email"] {
+ /*background color here */
 }
 
 
@@ -247,17 +229,6 @@ Feel free to change */
 
 
 
-
-
-
-/*Gallery*/
-
-section img {
-	width: 70%;
-	margin: 5% 15%;
-	box-shadow: 10px 20px 20px rgba(0, 0, 0, .5);
-	max-width: 700px;
-}
 
 
 
