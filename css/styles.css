@@ -113,8 +113,8 @@ footer a {
 
 .gallery img {
 	height: 200px;
-	box-shadow: 10px 20px 20px rgba(0, 0, 0, .5);
-	margin-right: 5%;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+	margin-right: 2%;
 }
 
 .logos {
@@ -175,7 +175,7 @@ q {
 	overflow:hidden;
 	visibility:hidden;
 	width:0;
-	height:0;
+	height: 0;
 }
 
 
@@ -226,14 +226,4 @@ input[type="email"] {
 	}
 	
 }
-
-
-
-
-
-
-
-
-
-
 
